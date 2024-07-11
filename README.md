@@ -4,7 +4,7 @@
 1. Run all the cells in [downlod_historical_data](./download_historical_data.ipynb)
     1. Change the values of `INTEREST_STOCKS` to tickers of stocks that you are interested in
 2. Run all the cells in [make_windowed_data](./make_windowed_data.ipynb)
-    1. Change the values of `METRIC_COL` (suggested is 'High'), `T_PAST` (" " 120), and `T_FUT` (" " 20)
+    1. Change the values of `METRIC_COL` (suggested is 'High'), `T_PAST` (" " 120), and `T_FUT` (" " 20), `STEP_SZ` (suggested to be equal to `T_PAST`)
 3. Run or Develop a file similar to [ML_windowed_data_analysis](./ML_windowed_data_analysis.ipynb)
     1. Change the values of `T_PAST` and `T_FUT` to your desired values (make sure you have completed step 2 for these values)
     2. Note: metrics are reported with starting values scaled to 1
